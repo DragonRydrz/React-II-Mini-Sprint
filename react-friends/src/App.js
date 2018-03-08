@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { people } from './people.js';
 
 class App extends Component {
+  constructor() {
+    super()
+    
+  }
+
+  componentDidMount() {
+    
+  }
+
   render() {
     return (
       <div className="App">
